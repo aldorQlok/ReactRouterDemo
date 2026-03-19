@@ -8,7 +8,7 @@ import NavBar from './components/NavBar'
 function App() {
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/ReactRouterDemo'>
         <NavBar />
         <Routes>
           <Route path='/' element={<Home />} />
