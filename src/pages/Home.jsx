@@ -2,6 +2,6 @@
 export default function Home(){
 
     return (
-        <h1>Min sida!</h1>
+        <h1>Min underbara sida!</h1>
     )
 }
